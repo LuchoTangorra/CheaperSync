@@ -1,0 +1,16 @@
+{
+    "base_path": "/home",
+    "important_folders": [
+        "Downloads",
+        "Documents"
+    ],
+    "out_path": "/home",
+    "extensions": [
+        "txt", 
+        "pdf", 
+        "docx", 
+        "doc", 
+        "csv"
+    ],
+    "size_threshold_in_MB": 100 
+}
