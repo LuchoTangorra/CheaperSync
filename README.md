@@ -9,7 +9,7 @@ This free software is used by travel agencies in Buenos Aires, Argentina.
 ### Project structure
 
 - CheaperSync.py: contains all the python code to excecute.
-- config.json: contains the necessary initial configuration. This should be manually setted as follows:
+- config.json: contains the necessary initial configuration. This should be manually set as follows:
 	- base_path: start path. The process will start searching from and inside this path.
 	- important_folders: base path subfolders. The process will only search inside this folders, ignoring any other  folder in base path.
 	- out_path: path when the data will be stored, if inside base path it will be ignored when searching. The data will be stored in this folder but the process will recreate the same folder structure that contains the original path.
@@ -27,4 +27,4 @@ This free software is used by travel agencies in Buenos Aires, Argentina.
 	- Minimun requirements: pyinstaller installed (if deploy as .exe), python3 installed (if used as-is from cmd follow linux instructions).
 	- Go to the CheaperSync path.
 	- Run: pyinstaller CheaperSync.py --noconsole
-	- The scrit above will create a .exe. Run it to run the program.
+	- The script above will create a .exe. Run it to run the program.
