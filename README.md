@@ -24,7 +24,7 @@ This free software is used by travel agencies in Buenos Aires, Argentina.
 	- Run: python3 CheaperSync.py
 	
 - Windows:
-	- Minimun requirements: pyinstaller installed (if deploy as .exe), python3 installed (if used as-is from cmd).
+	- Minimun requirements: pyinstaller installed (if deploy as .exe), python3 installed (if used as-is from cmd follow linux instructions).
 	- Go to the CheaperSync path.
 	- Run: pyinstaller CheaperSync.py --noconsole
 	- The scrit above will create a .exe. Run it to run the program.
