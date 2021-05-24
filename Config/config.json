@@ -1,0 +1,16 @@
+{
+    "base_path": "/home/luciano",
+    "selected_folders": [
+        "Documents",
+        "Desktop"
+    ],
+    "out_path": "/home/luciano/Desktop/test",
+    "file_extensions": [
+        "txt", 
+        "pdf", 
+        "docx", 
+        "doc", 
+        "csv"
+    ],
+    "size_threshold_in_MB": 100 
+}
