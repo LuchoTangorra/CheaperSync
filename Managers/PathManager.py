@@ -45,7 +45,7 @@ def get_files_paths():
     """
     upgraded_base_paths, base_paths = _get_base_paths_to_check()
 
-    #Get files from base paths only for its first level.
+    # Get files from base paths only for its first level.
     for path in base_paths:
         print(f"Obteniendo archivos de: {path}")
         paths = glob(f"{path}{os.sep}*.*")
@@ -53,7 +53,7 @@ def get_files_paths():
 
         yield paths
 
-    #Get files from all upgraded paths (one level inside base_paths) recursively.
+    # Get files from all upgraded paths (one level inside base_paths) recursively.
     for path in upgraded_base_paths:
         print(f"Obteniendo archivos de: {path}")
         paths = glob(f"{path}{os.sep}**{os.sep}*.*", recursive=True)

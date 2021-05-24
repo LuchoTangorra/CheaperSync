@@ -18,7 +18,8 @@ def _copy_file(path_from):
         os.makedirs(full_out_path)
 
     last_modified_from = os.stat(path_from).st_mtime
-    last_modified_to = os.stat(path_to).st_mtime if os.path.isfile(path_to) else 0
+    last_modified_to = os.stat(
+        path_to).st_mtime if os.path.isfile(path_to) else 0
 
     if last_modified_from > last_modified_to:
         print(f"Copying file {path_from}")

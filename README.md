@@ -4,7 +4,7 @@ Cheaper sync is a free software that stores your files with desired extension (p
 
 The objetive of this project is to save money in cloud storage uploading only the selected files. It could also be used to store all the files with the selected extensions in one unique folder (or external disk). 
 
-This free software is used by travel agencies in Buenos Aires, Argentina. 
+This free software is used by travel agencies in Buenos Aires, Argentina.
 
 ### Project structure
 
@@ -32,5 +32,21 @@ Go to Config folder and modify config.json, which params works as follows:
 - Windows:
 	- Minimun requirements: pyinstaller installed (if deploy as .exe), python3 installed (if used as-is from cmd follow linux instructions).
 	- Go to the CheaperSync path.
-	- Run: pyinstaller CheaperSync.py --noconsole
-	- The script above will create a .exe. Run it to run the program.
+	- Run: pyinstaller --noconsole --onefile CheaperSync.py
+	- The script above will create a .exe.
+	
+### How to schedule
+The following instructions will set the CheaperSync to run each time the computer is booted.
+
+- Linux:
+	- Create a .sh that contains the following command: python3 {path\_to\_cheaper\_sync}/CheaperSync.py
+	- Move that .sh to /etc/init.d/
+	- Make sure it is executable by: sudo chmod +x /etc/init.d/{sh\_file\_name.sh}
+	- Run this command: sudo update-rc.d {sh\_file\_name.sh} defaults
+
+- Windows:
+	- Press windows key + R
+	- Run the command: Shell:startup
+	- It will reach C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+	- Copy and paste the shortcut to the app from the file location to the Startup folder.
+	- You can check if it was correctly setted by restarting the PC and go to task manager (CTRL+ALT+DEL). Go to Startup and check if the app is enabled (it should).
