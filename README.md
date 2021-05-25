@@ -21,8 +21,10 @@ Go to Config folder and modify config.json, which params works as follows:
 - out_path: path when the data will be stored, if inside base path it will be ignored when searching. The data will be stored in this folder but the process will recreate the same folder structure that contains the original path.
 - file\_extensions: only files with those extensions will be saved in out path.
 - size\_threshold\_in\_MB: ignore files that has a size above this threshold.
-	
-For the process to work you need to have Config/config.json on the same folder as CheaperSync.py or CheaperSync.exe
+
+For the application to work you need to have Config/config.json on the same folder as CheaperSync.py or CheaperSync.exe
+
+_For Windows users_: it is important not to use "\" in your paths, use "/" or "\\\\" instead.
 
 ### How to use
 
