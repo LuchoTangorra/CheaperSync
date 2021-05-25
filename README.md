@@ -23,17 +23,18 @@ Go to Config folder and modify config.json, which params works as follows:
 - size\_threshold\_in\_MB: ignore files that has a size above this threshold.
 	
 ### How to use
+
+In both cases you should set your configuration in the config.json file inside Config folder.  
+
 - Linux:
 	- Minimun requirements: python3 installed. 
 	- Go to the CheaperSync path.
-	- Set your desired configuration in the config.json file.  
 	- Run: python3 CheaperSync.py
 	
 - Windows:
-	- Minimun requirements: pyinstaller installed (if deploy as .exe), python3 installed (if used as-is from cmd follow linux instructions).
-	- Go to the CheaperSync path.
-	- Run: pyinstaller --noconsole --onefile CheaperSync.py
-	- The script above will create a .exe.
+To run this program on Windows you have two posibilities:
+	- Run with python (same instructions as on Linux).
+	- Download only the dist folder, that contains the .exe.
 	
 ### How to schedule
 The following instructions will set the CheaperSync to run each time the computer is booted.
