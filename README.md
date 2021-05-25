@@ -22,6 +22,8 @@ Go to Config folder and modify config.json, which params works as follows:
 - file\_extensions: only files with those extensions will be saved in out path.
 - size\_threshold\_in\_MB: ignore files that has a size above this threshold.
 	
+For the process to work you need to have Config/config.json on the same folder as CheaperSync.py or CheaperSync.exe
+
 ### How to use
 
 In both cases you should set your configuration in the config.json file inside Config folder.  
@@ -34,7 +36,7 @@ In both cases you should set your configuration in the config.json file inside C
 - Windows:
 To run this program on Windows you have two posibilities:
 	- Run with python (same instructions as on Linux).
-	- Download only the dist folder, that contains the .exe.
+	- Download the .exe and config file from here: https://drive.google.com/file/d/1i6avr_GvV8-XO7pSK3EMuOz0ipsJ-xVq/view?usp=sharing . Set the config and run the .exe.
 	
 ### How to schedule
 The following instructions will set the CheaperSync to run each time the computer is booted.
