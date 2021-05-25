@@ -24,7 +24,7 @@ Go to Config folder and modify config.json, which params works as follows:
 
 For the application to work you need to have Config/config.json on the same folder as CheaperSync.py or CheaperSync.exe
 
-_For Windows users_: it is important not to use "\" in your paths, use "/" or "\\\\" instead.
+_For Windows users_: it is important not to use "\\" in your paths, use "/" or "\\\\" instead.
 
 ### How to use
 
