@@ -4,8 +4,6 @@
 """
 Owner: Luciano Tangorra
 
-Modified: 2021/05/23
-
 Cheaper sync is a free software that stores your files with desired 
 extension in a folder, so you can upload them to the cloud of your choice.
 
