@@ -1,8 +1,16 @@
 {
-    "base_path": "/home/luciano",
-    "selected_folders": [
-        "Documents",
-        "Desktop"
+    "base_paths": [
+        "/home/luciano/Desktop/Extras profesionales"
+    ],
+    "ignored_folders": [
+        "Extras profesionales",
+        "$Recycle.Bin",
+        "MinGW",
+        "Archivos de programa",
+        "Archivos de programa (x86)",
+        "Program Files (x86)",
+        "Program Files",
+        "ProgramData"
     ],
     "out_path": "/home/luciano/Desktop/test",
     "file_extensions": [

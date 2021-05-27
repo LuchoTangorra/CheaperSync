@@ -11,13 +11,13 @@ This free software is used by travel agencies in Buenos Aires, Argentina.
 - CheaperSync.py: contains the main program.
 - Managers: contains the managers used in the main program.
 	- ConfigManager: control the config set by the user.
-	- PathManager: generates the file paths requested in the config file.
-	- SaveManager: store the previously selected files in a new folder and/or in the cloud (not implemented yet). 
+	- ErrorManager: shows popup if error.
+	- SaveManager: saves to out_path all the files in selected folders.
 
 ### Set config:
 Go to Config folder and modify config.json, which params works as follows:
-- base_path: start path. The process will start searching from and inside this path.
-- important_folders: base path subfolders. The process will only search inside this folders, ignoring any other  folder in base path.
+- base_paths (list): start paths. The process will start searching from this paths.
+- ignored_folders (list): this process will ignore any folder with the same name as any of the values of this parameter.
 - out_path: path when the data will be stored, if inside base path it will be ignored when searching. The data will be stored in this folder but the process will recreate the same folder structure that contains the original path.
 - file\_extensions: only files with those extensions will be saved in out path.
 - size\_threshold\_in\_MB: ignore files that has a size above this threshold.
