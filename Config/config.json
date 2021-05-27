@@ -1,9 +1,8 @@
 {
     "base_paths": [
-        "/home/luciano/Desktop/Extras profesionales"
+        "/home/luciano/Desktop"
     ],
     "ignored_folders": [
-        "Extras profesionales",
         "$Recycle.Bin",
         "MinGW",
         "Archivos de programa",
