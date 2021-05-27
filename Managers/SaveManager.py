@@ -43,7 +43,7 @@ def _filter_files(paths):
                 if not is_in_ignored_folder:
                     for file_extension in cm.get_config("file_extensions"):
                         if path.endswith(file_extension):
-                            copy_file(path)
+                            _copy_file(path)
 
 
 def _copy_file(path_from):

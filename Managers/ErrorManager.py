@@ -61,4 +61,4 @@ def showError(exception, let_copy=True):
     Params:
         - exception (string): exception to be displayed.
     """
-    popup_error(exception, let_copy)
+    _popup_error(exception, let_copy)
