@@ -46,7 +46,7 @@ def _filter_files(paths):
                             copy_file(path)
 
 
-def copy_file(path_from):
+def _copy_file(path_from):
     """
     Creates the subdirectories in destination folder and upload the file if it was not already uploaded.
 

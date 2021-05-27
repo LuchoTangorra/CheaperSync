@@ -14,7 +14,7 @@ def _copy_to_clipboard(master, msg):
     master.clipboard_append(msg)
 
 
-def popup_error(msg, let_copy):
+def _popup_error(msg, let_copy):
     """
     Show popup error message and let the user copy to clipboard
     whatever error happens.
