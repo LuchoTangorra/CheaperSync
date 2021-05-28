@@ -38,7 +38,7 @@ In both cases you should set your configuration in the config.json file inside C
 - Windows:
 To run this program on Windows you have two posibilities:
 	- Run with python (same instructions as on Linux).
-	- Download the .exe and config file from here: https://drive.google.com/file/d/1hKjgjOIa3ZSHamOFOgQhBol21OEZPTEV/view?usp=sharing. It will warn you as is a virus but it is not.
+	- Download the .exe and config file from here: https://www.mediafire.com/file/4r5ihoas3npjcc7/CheaperSyncWindows.rar/file
 	- Set the config and run the .exe.
 	
 ### How to schedule
