@@ -38,7 +38,8 @@ In both cases you should set your configuration in the config.json file inside C
 - Windows:
 To run this program on Windows you have two posibilities:
 	- Run with python (same instructions as on Linux).
-	- Download the .exe and config file from here: https://drive.google.com/file/d/1i6avr_GvV8-XO7pSK3EMuOz0ipsJ-xVq/view?usp=sharing . Set the config and run the .exe.
+	- Download the .exe and config file from here: https://drive.google.com/file/d/1hKjgjOIa3ZSHamOFOgQhBol21OEZPTEV/view?usp=sharing. It will warn you as is a virus but it is not.
+	- Set the config and run the .exe.
 	
 ### How to schedule
 The following instructions will set the CheaperSync to run each time the computer is booted.
